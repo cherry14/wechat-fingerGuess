@@ -1,0 +1,27 @@
+<view class="downView">
+  <text class='wintxt'>你已经获胜了
+   <text class="winnum">{{ winnum}}</text>次
+  </text>
+  
+  <view class="showview">
+    <image src="{{imgAiScr}}" class="gustrueimgL"></image>
+    <text class="WinorLost" >{{ gameofpaly }}</text>
+     <image src="{{imguserSrc}}" class="gustrueimgR"></image>
+  </view>
+
+
+  <view class="chooseuserview">
+    <text >{{gamestart}}</text>
+    <view class="choose-V">
+        <block wx:for="{{srcs}}" wx:key="">
+          <view class="choose-view" bindtap="changeForChoose" id="{{index}}">
+            <image class="choose-img" src="{{item}}"></image>
+          </view>
+        </block>
+
+    </view>
+
+
+    <button class="btn" bindtap="again">再来一次</button>
+  </view>
+</view>

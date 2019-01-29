@@ -1,0 +1,59 @@
+/*xcss*/
+.downView{
+  width:100%;
+  background-color: #fae738;
+  text-align: center;
+  height:1250rpx;
+}
+.winnum{
+  color:red;
+}
+.showview{
+  display: flex;
+  width:100%;
+  margin-top: 30rpx;
+  height:200rpx;
+
+}
+.gustrueimgL{
+  width:180rpx;
+  height:180rpx;
+  margin-left: 60rpx;
+}
+.WinorLost{
+  font-size: 38rpx;
+  margin-left: 112rpx;
+}
+.gustrueimgR {
+   width:180rpx;
+  height:180rpx;
+  margin-left: 110rpx;
+}
+
+
+.chooseuserview{
+  margin: 40rpx;
+  background-color: #fff;
+  height: 800rpx;
+}
+.choose-V {
+  width:100%;
+  display: flex;
+}
+
+.choose-view{
+  
+  display: flex;
+  justify-content: space-between;
+}
+.choose-img{
+  width:180rpx;
+  height:180rpx;
+   border-radius: 50%;
+   margin: 30rpx;
+}
+.btn{
+  width:80%;
+  margin-top:100rpx;
+  background-color: #fae738;
+}
